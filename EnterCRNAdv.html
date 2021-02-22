@@ -1,0 +1,39 @@
+<!--
+    Ken Hiltenbrand
+    CIS261 Professor Daly
+    Final Project - EnterCRNAdv.html
+-->
+<!DOCTYPE html>
+<!--php header inclusion -->
+<html>
+
+<head>
+    <title>Enter CRN Advanced</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <h1>Enter CRN</h1>
+    <p>Please enter the CRN numbers (or course IDs, I haven't figured that part out yet) that were entered at the time
+        of registration.</p>
+    <p>Placeholder for Entry of CRN numbers or Course IDs</p>
+    <p>Lorem Ipsum</p>
+    <form action="CRNHandler.php" method="POST" style="display:inline">
+        <input type="text" name="crn1">
+        <input type="text" name="crn2">
+        <input type="text" name="crn3">
+        <input type="text" name="crn4">
+        <input type="text" name="crn5">
+        <input type="text" name="crn6">
+    </form>
+    <form action="InfoVerificationAdv.html" method="GET">
+        <input type="submit" value="continue">
+    </form>
+    <!--
+            The button above will lead to a php program that will verify the validity of the CRN numbers entered, but for 
+            now I have some placeholder buttons that lead to the other html pages.
+    -->
+</body>
+
+</html>
+<!--php footer inclusion -->

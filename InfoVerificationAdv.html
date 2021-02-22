@@ -1,0 +1,46 @@
+<!--
+    Ken Hiltenbrand
+    CIS261 Professor Daly
+    Final Project - InfoVerificationAdv.html
+-->
+<!DOCTYPE html>
+<!--php header inclusion -->
+<html>
+
+<head>
+    <title>Info Verification-Advnaced</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <h1>Please Verify the Information Presented</h1>
+    <p>The information here will be displayed in a table showing the CRN entered, the Course ID, the name of the class,
+        the name of the professor, and the class meeting time followed by a delete button shoud the information
+        displayed be incorrect.
+    </p>
+    <table>
+        <tr>
+            <th>CRN</th>
+            <th>Course Title</th>
+            <th>Course ID</th>
+            <th>Professor</th>
+            <th>Meeting Time</th>
+        </tr>
+        <tr>
+            <td>20107</td>
+            <td>PHP Web Server Programming</td>
+            <td>CIS261.980</td>
+            <td>Professor Garry Daly</td>
+            <td>Tuesdays 6:00-9:30 P.M.</td>
+        </tr>
+    </table>
+    <form action="EnterCRNAdv.html" method="GET" style="display:inline">
+        <input type="submit" value="Enter Other CRNs">
+    </form>
+    <form action="ProtoSchedAdv.html" method="GET" style="display:inline">
+        <input type="submit" value="Continue">
+    </form>
+</body>
+
+</html>
+<!--php footer inclusion -->
